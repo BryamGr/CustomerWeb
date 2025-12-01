@@ -1,0 +1,559 @@
+<!DOCTYPE html>
+<html class="scroll-smooth" lang="en"><head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>Loopi - Inicio</title>
+<link href="https://fonts.googleapis.com" rel="preconnect"/>
+<link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect"/>
+<link href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700&amp;family=Playfair+Display:wght@400;700&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<script src="https://cdn.tailwindcss.com?plugins=forms,typography,container-queries"></script>
+<script>
+    tailwind.config = {
+      darkMode: "class",
+      theme: {
+        extend: {
+          colors: {
+            primary: "#5A8BA8", // Soft, Muted Blue
+            "background-light": "#F0F4F8", // Very Light Cool Gray
+            "background-dark": "#2C3E50",  // Dark Slate Blue/Gray
+          },
+          fontFamily: {
+            display: ["Playfair Display", "serif"],
+            body: ["Lato", "sans-serif"],
+          },
+          borderRadius: {
+            DEFAULT: "0.5rem",
+          },
+        },
+      },
+    };
+  </script>
+<style>
+    body {
+        font-family: 'Lato', sans-serif;
+    }
+    h1, h2, h3, h4, h5, h6 {
+        font-family: 'Playfair Display', serif;
+    }
+  </style>
+</head>
+<body class="bg-background-light dark:bg-background-dark text-slate-800 dark:text-slate-300 antialiased">
+<div class="relative w-full">
+<header class="absolute top-0 left-0 right-0 z-20">
+<div class="container mx-auto px-6 py-6 flex justify-between items-center">
+<a class="flex items-center space-x-3 text-white" href="#">
+  <img
+    src="/images/v73_30.png"
+    alt="Logo de Loopi"
+    class="h-8 w-8 rounded-full object-cover"
+  />
+  <span class="text-2xl font-display font-bold">Loopi</span>
+</a>
+<nav class="hidden md:flex items-center space-x-8 text-sm font-semibold tracking-wide text-white">
+<a class="font-bold border-b-2 border-white pb-1" href="#">Inicio</a>
+<a class="hover:text-slate-200 transition-colors" href="#">Nosotros</a>
+<a class="hover:text-slate-200 transition-colors flex items-center" href="#">Servicios <span class="material-icons text-base ml-1">expand_more</span></a>
+<a class="hover:text-slate-200 transition-colors flex items-center" href="#">Páginas <span class="material-icons text-base ml-1">expand_more</span></a>
+<a class="hover:text-slate-200 transition-colors" href="#">Equipo</a>
+<a class="hover:text-slate-200 transition-colors" href="#">Blog</a>
+<a class="hover:text-slate-200 transition-colors" href="#">Contáctanos</a>
+</nav>
+<button class="md:hidden p-2 rounded-md bg-white/20 hover:bg-white/30 transition-colors">
+<span class="material-icons text-white">menu</span>
+</button>
+</div>
+</header>
+<main>
+<section class="relative bg-primary dark:bg-background-dark overflow-hidden">
+<div class="absolute inset-0 bg-cover bg-center opacity-20" style="background-image: url('/images/fondo.png');"></div>
+<div class="absolute inset-0 bg-gradient-to-r from-primary via-primary/80 to-transparent dark:from-background-dark dark:via-background-dark/80"></div>
+<div class="container mx-auto px-6 relative z-10">
+<div class="flex flex-col lg:flex-row items-center min-h-screen pt-28 pb-16">
+<div class="lg:w-1/2 text-white text-center lg:text-left">
+<p class="text-sm font-bold tracking-widest text-slate-300 uppercase mb-4">App para TEA · TDA · TDAH</p>
+<h1 class="text-5xl md:text-7xl font-display font-bold mb-6">Crea rutinas amables para tu hijo, estudiante o paciente</h1>
+<p class="max-w-lg mx-auto lg:mx-0 text-slate-200 text-lg mb-10">
+              Loopi es una app que organiza el día a día con rutinas visuales, recordatorios suaves y herramientas de regulación emocional. Está pensada para familias, colegios y profesionales que acompañan a personas neurodivergentes.
+            </p>
+<a class="inline-block bg-white text-primary font-bold py-3 px-8 rounded-lg shadow-lg hover:bg-slate-100 transition-colors" href="#">
+              Probar Loopi gratis
+            </a>
+</div>
+<div class="lg:w-1/2 mt-12 lg:mt-0 flex justify-center lg:justify-end relative">
+<img alt="niños sonriendo" class="relative z-10 w-full max-w-lg rounded-full object-cover aspect-square shadow-2xl" src="/images/principal.png"/>
+<svg class="absolute -top-10 -left-10 w-32 h-32 text-white/10 opacity-50 dark:text-white/5" fill="currentColor" viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg"><path d="M40,-56.5C51.6,-51.7,60.8,-42.1,67,-30.5C73.3,-18.9,76.6,-5.3,73.8,7.1C70.9,19.6,61.9,30.9,52.3,40.1C42.7,49.3,32.5,56.5,21.5,61.2C10.5,65.9,-1.3,68.2,-13.3,66.1C-25.2,64,-37.4,57.5,-47.9,48.2C-58.4,38.9,-67.3,26.8,-71.4,13.2C-75.5,-0.3,-74.9,-15.3,-68.6,-27.6C-62.3,-39.9,-50.4,-49.4,-38.3,-54.6C-26.2,-59.8,-13.1,-60.6,0.5,-61.4C14.1,-62.1,28.3,-61.4,40,-56.5Z" transform="translate(100 100)"></path></svg>
+<svg class="absolute -bottom-16 -right-12 w-48 h-48 text-white/10 opacity-50 dark:text-white/5" fill="currentColor" viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg"><path d="M49.8,-63.3C61,-53.4,64.2,-34.5,66.5,-17.7C68.9,-0.9,70.5,13.9,64.6,26.3C58.7,38.8,45.3,49,31.5,56.8C17.7,64.7,3.6,70.3,-10.8,69.5C-25.1,68.7,-39.8,61.6,-51.4,50.7C-63,39.8,-71.6,25.1,-74.3,9.2C-77.1,-6.6,-74,-23.5,-65.7,-36.4C-57.3,-49.2,-43.8,-57.9,-30.2,-64.5C-16.7,-71.1,-3.2,-75.6,10.6,-74.8C24.5,-74.1,38.6,-68.1,49.8,-63.3Z" transform="translate(100 100)"></path></svg>
+</div>
+</div>
+</div>
+</section>
+<section class="py-20 md:py-32 bg-background-light dark:bg-slate-900/50">
+<div class="container mx-auto px-6">
+<div class="text-center mb-12">
+<p class="text-sm font-bold tracking-widest text-primary dark:text-blue-300 uppercase mb-2">Nuestros Servicios</p>
+<h2 class="text-4xl md:text-5xl font-display font-bold text-slate-900 dark:text-white">Lo que puedes hacer con Loopi...</h2>
+</div>
+<div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-8">
+<div class="bg-white dark:bg-slate-800 rounded-lg shadow-md overflow-hidden group">
+<img alt="Servicio 1" class="w-full h-56 object-cover" src="/images/serv1.png"/>
+<div class="p-6">
+<h3 class="font-display text-xl font-bold text-slate-900 dark:text-white mb-2">Rutinas visuales paso a paso de manera simple</h3>
+<p class="text-slate-600 dark:text-slate-400 text-sm mb-4">Crea secuencias simples para mañana, tarde y noche usando pictogramas, fotos o íconos fáciles de entender.</p>
+<a class="inline-flex items-center text-primary dark:text-blue-300 font-bold group-hover:translate-x-1 transition-transform" href="#">
+<span>Explorar más</span>
+<span class="material-icons ml-1">arrow_forward</span>
+</a>
+</div>
+</div>
+<div class="bg-white dark:bg-slate-800 rounded-lg shadow-md overflow-hidden group">
+<img alt="Servicio 2" class="w-full h-56 object-cover" src="/images/serv2.png"/>
+<div class="p-6">
+<h3 class="font-display text-xl font-bold text-slate-900 dark:text-white mb-2">Recordatorios suaves y anticipación</h3>
+<p class="text-slate-600 dark:text-slate-400 text-sm mb-4">Configura avisos con sonidos y vibraciones discretas para anticipar los cambios sin sobrecargar los sentidos.</p>
+<a class="inline-flex items-center text-primary dark:text-blue-300 font-bold group-hover:translate-x-1 transition-transform" href="#">
+<span>Explorar más</span>
+<span class="material-icons ml-1">arrow_forward</span>
+</a>
+</div>
+</div>
+<div class="bg-white dark:bg-slate-800 rounded-lg shadow-md overflow-hidden group">
+<img alt="Servicio 3" class="w-full h-56 object-cover" src="/images/serv3.png"/>
+<div class="p-6">
+<h3 class="font-display text-xl font-bold text-slate-900 dark:text-white mb-2">Regulación emocional en el momento</h3>
+<p class="text-slate-600 dark:text-slate-400 text-sm mb-4">Incluye tableros de emociones, ejercicios de respiración y mini-pausas para manejar momentos de crisis.</p>
+<a class="inline-flex items-center text-primary dark:text-blue-300 font-bold group-hover:translate-x-1 transition-transform" href="#">
+<span>Explorar más</span>
+<span class="material-icons ml-1">arrow_forward</span>
+</a>
+</div>
+</div>
+<div class="bg-white dark:bg-slate-800 rounded-lg shadow-md overflow-hidden group">
+<img alt="Servicio 4" class="w-full h-56 object-cover" src="/images/serv4.png"/>
+<div class="p-6">
+<h3 class="font-display text-xl font-bold text-slate-900 dark:text-white mb-2">Panel para familias y profesionales</h3>
+<p class="text-slate-600 dark:text-slate-400 text-sm mb-4">Comparte rutinas, avances y notas entre familias, colegio y terapeutas para que todos estén alineados.</p>
+<a class="inline-flex items-center text-primary dark:text-blue-300 font-bold group-hover:translate-x-1 transition-transform" href="#">
+<span>Explorar más</span>
+<span class="material-icons ml-1">arrow_forward</span>
+</a>
+</div>
+</div>
+</div>
+</div>
+</section>
+<section class="py-20 md:py-32 bg-background-light dark:bg-background-dark">
+<div class="container mx-auto px-6">
+<div class="flex flex-col lg:flex-row items-center gap-12 lg:gap-16">
+<div class="lg:w-1/2 relative">
+<div class="relative w-full max-w-md mx-auto">
+<div class="absolute inset-0 bg-primary/20 dark:bg-primary/40 rounded-3xl -rotate-6 transform"></div>
+<img alt="Woman holding a yoga mat" class="relative w-full h-auto rounded-3xl shadow-lg" src="/images/dis.png"/>
+</div>
+</div>
+<div class="lg:w-1/2 text-center lg:text-left">
+<p class="text-sm font-bold tracking-widest text-primary dark:text-blue-300 uppercase mb-2">Diseñado con la comunidad</p>
+<h2 class="text-4xl md:text-5xl font-display font-bold text-slate-900 dark:text-white mb-6">Pensado específicamente para TEA, TDA y TDAH</h2>
+<p class="text-slate-600 dark:text-slate-400 mb-8">
+            Loopi no es una app genérica de productividad. Consiste en una plataforma creada junto a personas neurodivergentes, cuidadores y especialistas, lo que significa que cada detalle —colores, sonidos, tiempos y mensajes— se ha revisado para reducir la sobrecarga sensorial y aumentar la claridad.
+          </p>
+<a class="inline-block bg-primary text-white font-bold py-3 px-8 rounded-lg shadow-lg hover:bg-primary/90 transition-colors" href="#">
+            Descubrir la metodología Loopi
+          </a>
+</div>
+</div>
+</div>
+</section>
+<section class="py-20 md:py-32 bg-background-light dark:bg-slate-900/50">
+<div class="container mx-auto px-6">
+<div class="text-center mb-12">
+<p class="text-sm font-bold tracking-widest text-primary dark:text-blue-300 uppercase mb-2">Una sola app para alinear a familias, colegios y profesionales</p>
+<h2 class="text-4xl md:text-5xl font-display font-bold text-slate-900 dark:text-white mb-4">¿Por qué elegir Loopi?</h2>
+<p class="max-w-2xl mx-auto text-slate-600 dark:text-slate-400">Empieza con pequeñas rutinas diarias y ve ajustando según lo que funciona mejor para tu hijo, estudiante o paciente, sin necesidad de ser experto en tecnología.</p>
+</div>
+<div class="relative flex flex-col lg:flex-row items-center justify-center gap-8">
+<div class="lg:w-1/3 flex flex-col items-center lg:items-end gap-y-8 text-center lg:text-right">
+<div>
+<h3 class="font-display text-xl font-bold text-slate-900 dark:text-white">Visión 360° del día</h3>
+<p class="text-slate-600 dark:text-slate-400 text-sm">Rutinas de casa, colegio y terapia integradas en un solo espacio visual.</p>
+</div>
+<div class="relative lg:-left-4">
+  <h3 class="font-display text-xl font-bold text-slate-900 dark:text-white">Menos discusiones, más acuerdos</h3>
+  <p class="text-slate-600 dark:text-slate-400 text-sm">Loopi muestra “lo que toca ahora”, bajando la fricción en casa.</p>
+</div>
+<div>
+<h3 class="font-display text-xl font-bold text-slate-900 dark:text-white">Datos que ayudan</h3>
+<p class="text-slate-600 dark:text-slate-400 text-sm">Registra episodios, avances y disparadores para analizarlos en equipo.</p>
+</div>
+</div>
+<div class="lg:w-1/3 relative flex justify-center order-first lg:order-none">
+<div class="absolute inset-0 bg-primary/10 dark:bg-primary/20 rounded-full scale-110"></div>
+<img alt="Woman in a yoga pose" class="relative w-full max-w-sm rounded-full" src="/images/elegir.png"/>
+<div class="absolute -left-4 top-1/4 transform -translate-y-1/2 hidden lg:block">
+<div class="w-12 h-12 bg-primary rounded-full flex items-center justify-center text-white shadow-lg"><span class="material-icons">check</span></div>
+</div>
+<div class="absolute -left-12 top-1/2 transform -translate-y-1/2 hidden lg:block">
+<div class="w-12 h-12 bg-primary rounded-full flex items-center justify-center text-white shadow-lg"><span class="material-icons">check</span></div>
+</div>
+<div class="absolute -left-4 top-3/4 transform -translate-y-1/2 hidden lg:block">
+<div class="w-12 h-12 bg-primary rounded-full flex items-center justify-center text-white shadow-lg"><span class="material-icons">check</span></div>
+</div>
+<div class="absolute left-8 bottom-0 hidden lg:block">
+<div class=""><span class="material-icons"></span></div> <!--circulo y check-->
+</div>
+<div class="absolute -right-4 top-1/4 transform -translate-y-1/2 hidden lg:block">
+<div class="w-12 h-12 bg-primary rounded-full flex items-center justify-center text-white shadow-lg"><span class="material-icons">check</span></div>
+</div>
+<div class="absolute -right-12 top-1/2 transform -translate-y-1/2 hidden lg:block">
+<div class="w-12 h-12 bg-primary rounded-full flex items-center justify-center text-white shadow-lg"><span class="material-icons">check</span></div>
+</div>
+<div class="absolute -right-4 top-3/4 transform -translate-y-1/2 hidden lg:block">
+<div class="w-12 h-12 bg-primary rounded-full flex items-center justify-center text-white shadow-lg"><span class="material-icons">check</span></div>
+</div>
+<div class="absolute right-8 bottom-0 hidden lg:block">
+<div class=""><span class="material-icons"></span></div> <!--circulo y check-->
+</div>
+</div>
+<div class="lg:w-1/3 flex flex-col items-center lg:items-start gap-y-8 text-center lg:text-left">
+<div>
+<h3 class="font-display text-xl font-bold text-slate-900 dark:text-white">Lenguaje claro y visual</h3>
+<p class="text-slate-600 dark:text-slate-400 text-sm">Pensado para quienes necesitan información concreta y predecible.</p>
+</div>
+<div class="relative lg:left-4">
+  <h3 class="font-display text-xl font-bold text-slate-900 dark:text-white">Herramientas de calma</h3>
+  <p class="text-slate-600 dark:text-slate-400 text-sm">Actividades para respirar, pausar y bajar la intensidad emocional.</p>
+</div>
+<div>
+<h3 class="font-display text-xl font-bold text-slate-900 dark:text-white">Acompañamiento continuo</h3>
+<p class="text-slate-600 dark:text-slate-400 text-sm">Tutoriales, recursos y soporte humano para implementar Loopi paso a paso.</p>
+</div>
+</div>
+</div>
+</div>
+</section>
+<section class="py-20 md:py-32 bg-primary/10 dark:bg-background-dark/50">
+<div class="container mx-auto px-6">
+<div class="overflow-hidden rounded-xl shadow-2xl lg:grid lg:grid-cols-2 lg:gap-4">
+<div class="p-10 md:p-12 lg:p-16 bg-white dark:bg-slate-800">
+<p class="text-sm font-bold tracking-widest text-primary dark:text-blue-300 uppercase mb-2">Consulta</p>
+<h2 class="text-4xl md:text-5xl font-display font-bold text-slate-900 dark:text-white mb-8">Agenda una demo gratuita de Loopi</h2>
+<form action="#" class="space-y-4">
+<div class="grid sm:grid-cols-2 gap-4">
+<input class="w-full bg-background-light dark:bg-slate-700 border-slate-300 dark:border-slate-600 rounded-md py-3 px-4 focus:ring-primary focus:border-primary" placeholder="Nombres" type="text"/>
+<input class="w-full bg-background-light dark:bg-slate-700 border-slate-300 dark:border-slate-600 rounded-md py-3 px-4 focus:ring-primary focus:border-primary" placeholder="Apellidos" type="text"/>
+</div>
+<div class="grid sm:grid-cols-2 gap-4">
+<input class="w-full bg-background-light dark:bg-slate-700 border-slate-300 dark:border-slate-600 rounded-md py-3 px-4 focus:ring-primary focus:border-primary" placeholder="Número celular" type="tel"/>
+<input class="w-full bg-background-light dark:bg-slate-700 border-slate-300 dark:border-slate-600 rounded-md py-3 px-4 focus:ring-primary focus:border-primary" placeholder="Email" type="email"/>
+</div>
+<div>
+<textarea class="w-full bg-background-light dark:bg-slate-700 border-slate-300 dark:border-slate-600 rounded-md py-3 px-4 h-32 resize-none focus:ring-primary focus:border-primary" placeholder="Mensaje"></textarea>
+</div>
+<div>
+<button class="w-full sm:w-auto bg-primary text-white font-bold py-3 px-8 rounded-lg shadow-lg hover:bg-primary/90 transition-colors" type="submit">
+                  Solicitar demo
+                </button>
+</div>
+</form>
+</div>
+<div class="aspect-w-16 aspect-h-9 lg:aspect-none">
+<img alt="Person stretching in a calm environment" class="w-full h-full object-cover" src="/images/demo.png"/>
+</div>
+</div>
+</div>
+</section>
+<section class="py-20 md:py-32 bg-background-light dark:bg-background-dark">
+<div class="container mx-auto px-6">
+<div class="text-center mb-16">
+<p class="text-sm font-bold tracking-widest text-primary dark:text-blue-300 uppercase mb-2">LO QUE OFRECEMOS</p>
+<h2 class="text-4xl md:text-5xl font-display font-bold text-slate-900 dark:text-white">Nuestros Planes</h2>
+<p class="max-w-2xl mx-auto text-slate-600 dark:text-slate-400 mt-4">
+          Elige el plan que se adapta mejor a tu contexto. Puedes empezar de forma pequeña y escalar cuando lo necesites.
+        </p>
+</div>
+<div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+<div class="bg-white dark:bg-slate-800 rounded-2xl shadow-lg text-center overflow-hidden flex flex-col">
+<div class="relative">
+<img alt="Woman practicing yoga at home" class="w-full h-56 object-cover" src="/images/plan1.png"/>
+<div class="absolute inset-x-0 -bottom-12 flex justify-center">
+<div class="bg-primary/90 text-white rounded-full p-4 shadow-lg backdrop-blur-sm">
+<span class="material-symbols-outlined text-4xl">family_star</span> <!--icono--> 
+</div>
+</div>
+</div>
+<div class="pt-16 px-8 pb-8 flex-grow flex flex-col">
+<h3 class="font-display text-2xl font-bold text-slate-900 dark:text-white mb-6">Plan Estrellitas Loopi</h3>
+<ul class="space-y-4 text-slate-600 dark:text-slate-400 mb-8 flex-grow">
+<li class="flex items-center justify-center">
+<span class="material-symbols-outlined text-primary mr-2">check_circle</span>
+<span>Hasta 2 peques con su propio perfil</span>
+</li>
+<li class="flex items-center justify-center">
+<span class="material-symbols-outlined text-primary mr-2">check_circle</span>
+<span>Rutinas visuales para mañana, tarde y noche</span>
+</li>
+<li class="flex items-center justify-center">
+<span class="material-symbols-outlined text-primary mr-2">check_circle</span>
+<span>Tablero de emociones sencillo para empezar</span>
+</li>
+</ul>
+<div class="mb-6">
+<span class="text-5xl font-display font-bold text-slate-900 dark:text-white">$4.99</span>
+<span class="text-slate-500 dark:text-slate-400">por mes</span>
+</div>
+<a class="mt-auto block bg-primary/20 text-primary dark:bg-blue-300/20 dark:text-blue-300 font-bold py-3 px-8 rounded-lg hover:bg-primary/30 dark:hover:bg-blue-300/30 transition-colors" href="#">Empezar con Estrellitas</a>
+</div>
+</div>
+<div class="bg-white dark:bg-slate-800 rounded-2xl shadow-lg text-center overflow-hidden flex flex-col">
+<div class="relative">
+<img alt="Yoga class in session" class="w-full h-56 object-cover" src="/images/plan2.png"/>
+<div class="absolute inset-x-0 -bottom-12 flex justify-center">
+<div class="bg-primary/90 text-white rounded-full p-4 shadow-lg backdrop-blur-sm">
+<span class="material-symbols-outlined text-4xl">cruelty_free</span>
+</div>
+</div>
+</div>
+<div class="pt-16 px-8 pb-8 flex-grow flex flex-col">
+<h3 class="font-display text-2xl font-bold text-slate-900 dark:text-white mb-6">Plan Aula Mágica</h3>
+<ul class="space-y-4 text-slate-600 dark:text-slate-400 mb-8 flex-grow">
+<li class="flex items-center justify-center">
+<span class="material-symbols-outlined text-primary mr-2">check_circle</span>
+<span>Varios estudiantes con rutinas personalizadas</span>
+</li>
+<li class="flex items-center justify-center">
+<span class="material-symbols-outlined text-primary mr-2">check_circle</span>
+<span>Panel para que todo el equipo del aula vea lo mismo</span>
+</li>
+<li class="flex items-center justify-center">
+<span class="material-symbols-outlined text-primary mr-2">check_circle</span>
+<span>Comunicación más clara con las familias</span>
+</li>
+</ul>
+<div class="mb-6">
+<span class="text-5xl font-display font-bold text-slate-900 dark:text-white">$14.99</span>
+<span class="text-slate-500 dark:text-slate-400">por mes</span>
+</div>
+<a class="mt-auto block bg-primary text-white font-bold py-3 px-8 rounded-lg shadow-lg hover:bg-primary/90 transition-colors" href="#">Enroll Now</a>
+</div>
+</div>
+<div class="bg-white dark:bg-slate-800 rounded-2xl shadow-lg text-center overflow-hidden flex flex-col">
+<div class="relative">
+<img alt="Woman meditating with laptop" class="w-full h-56 object-cover" src="/images/plan3.png"/>
+<div class="absolute inset-x-0 -bottom-12 flex justify-center">
+<div class="bg-primary/90 text-white rounded-full p-4 shadow-lg backdrop-blur-sm">
+<span class="material-symbols-outlined text-4xl">emoji_nature</span>
+</div>
+</div>
+</div>
+<div class="pt-16 px-8 pb-8 flex-grow flex flex-col">
+<h3 class="font-display text-2xl font-bold text-slate-900 dark:text-white mb-6">Plan Héroes del Apoyo</h3>
+<ul class="space-y-4 text-slate-600 dark:text-slate-400 mb-8 flex-grow">
+<li class="flex items-center justify-center">
+<span class="material-symbols-outlined text-primary mr-2">check_circle</span>
+<span>Perfiles ilimitados de niños y adolescentes</span>
+</li>
+<li class="flex items-center justify-center">
+<span class="material-symbols-outlined text-primary mr-2">check_circle</span>
+<span>Protocolos y rutinas personalizadas por caso</span>
+</li>
+<li class="flex items-center justify-center">
+<span class="material-symbols-outlined text-primary mr-2">check_circle</span>
+<span>Reportes listos para informes y sesiones</span>
+</li>
+</ul>
+<div class="mb-6">
+<span class="text-5xl font-display font-bold text-slate-900 dark:text-white">$24.99</span>
+<span class="text-slate-500 dark:text-slate-400">por mes</span>
+</div>
+<a class="mt-auto block bg-primary/20 text-primary dark:bg-blue-300/20 dark:text-blue-300 font-bold py-3 px-8 rounded-lg hover:bg-primary/30 dark:hover:bg-blue-300/30 transition-colors" href="#">Enroll Now</a>
+</div>
+</div>
+</div>
+</div>
+</section>
+<section class="py-20 md:py-32 bg-background-light dark:bg-slate-900/50">
+<div class="container mx-auto px-6">
+<div class="text-center mb-12">
+<p class="text-sm font-bold tracking-widest text-primary dark:text-blue-300 uppercase mb-2">Testimonios</p>
+<h2 class="text-4xl md:text-5xl font-display font-bold text-slate-900 dark:text-white mb-4">Lo que dicen quienes usan Loopi</h2>
+<p class="max-w-2xl mx-auto text-slate-600 dark:text-slate-400">Historias reales de familias y profesionales que han integrado Loopi en su día a día.</p>
+</div>
+<div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+<div class="bg-white dark:bg-slate-800 rounded-lg shadow-lg p-8 flex flex-col">
+<div class="flex-grow">
+<span class="font-display text-6xl text-primary/20 dark:text-primary/40">”</span>
+<p class="text-slate-600 dark:text-slate-300 -mt-4 mb-6">""Mi hijo se distrae con facilidad y las tareas eran un drama. Con Loopi dividimos todo en pasos pequeños y con recompensas suaves. Él siente que ‘juega’ mientras sigue la rutina y yo por fin tengo una estructura clara para ayudarlo. Sinceramente, es la primera app que recomiendo sin dudar.""</p>
+</div>
+<div class="flex items-center mt-auto">
+<img alt="Portrait of Alex Johnson" class="w-12 h-12 rounded-full object-cover shadow-md mr-4" src="https://lh3.googleusercontent.com/aida-public/AB6AXuDrk_Hr3jfgrCDs44vGelsDzy00PKFJxRHSGOPwV0N5a5mMHw7FPymHrc6IJbRsmu018EgmHvMmcNGXjd_ZOUikSVK95HCUVtek9uNJycz2P88s-1UMwQtY-MDRvdPcBcWh2bhC-nexGCHNhq9nn_CeYoBhPcZRhQPr7Xk4_FV2taqN4L-xwU-BcIb9G_6Tfl6J_e5CYwJb6_Pn45efH8q2sJAJjEx0D1bKYNxFDXFoFvqcvGlVDPv5WT5qM7R2aFtLuE3UWuxTH--r"/>
+<div>
+<p class="font-bold text-slate-800 dark:text-white">Ana, mamá de Leo (8 años, TEA)</p>
+<p class="text-sm text-slate-500 dark:text-slate-400">Cliente</p>
+</div>
+</div>
+</div>
+<div class="bg-white dark:bg-slate-800 rounded-lg shadow-lg p-8 flex flex-col">
+<div class="flex-grow">
+<span class="font-display text-6xl text-primary/20 dark:text-primary/40">”</span>
+<p class="text-slate-600 dark:text-slate-300 -mt-4 mb-6">""En el aula necesitábamos algo que organizara mejor el día para varios peques con TDAH y TEA. Con Loopi, las transiciones entre actividades son mucho más suaves y ellos se sienten más seguros porque todo está anticipado. Como docente, me da tranquilidad saber que en casa ven lo mismo que en el colegio.""</p>
+</div>
+<div class="flex items-center mt-auto">
+<img alt="Portrait of Maria Garcia" class="w-12 h-12 rounded-full object-cover shadow-md mr-4" src="https://lh3.googleusercontent.com/aida-public/AB6AXuAPB0AK0Q6YttppffAF_uRgPL0Q3tSRcQAYMLqsNqksobOMdFzQKrkn9GM5M5VwKMciZ9NCtYCV6tP72TFpWbiD0XrdR_68SMoEL0yWDOX9Q90sEsfvVYAwz6v8izspkiMop_6PYlMVcTD5H_k8doHoZ4go-L2xoOnEQqm4LIi2r0J5DHPciJW9b5jGhboEJfcJaq9nICcBWO9X0z9ggT6Ml_cDtyil8wO1QyeD5V5EWTd8VvHfJ8vZ2fXymIPLoDJT1sRwVCbc48_T"/>
+<div>
+<p class="font-bold text-slate-800 dark:text-white">Carolina, maestra infantil</p>
+<p class="text-sm text-slate-500 dark:text-slate-400">Cliente</p>
+</div>
+</div>
+</div>
+<div class="bg-white dark:bg-slate-800 rounded-lg shadow-lg p-8 flex flex-col">
+<div class="flex-grow">
+<span class="font-display text-6xl text-primary/20 dark:text-primary/40">”</span>
+<p class="text-slate-600 dark:text-slate-300 -mt-4 mb-6">""Lo que más valoro de Loopi es que no es una app genérica de productividad; está realmente pensada para neurodivergentes. Puedo diseñar rutinas y tableros emocionales, ver qué funcionó y compartirlo con la familia y el colegio. La estoy recomendando a mis pacientes porque convierte la teoría en algo que usan todos los días.""</p>
+</div>
+<div class="flex items-center mt-auto">
+<img alt="Portrait of James Smith" class="w-12 h-12 rounded-full object-cover shadow-md mr-4" src="https://lh3.googleusercontent.com/aida-public/AB6AXuBG--tpGRctWCsJ9gB3Xgn-ix8WaywwdGbLRZR1KmcOAFNDq_CQ5OXPB6SX3PZBOm7YsmIiJXJU6P4xgcNsTRQ_f3Jz-88iCsmqY2bUw8ynzv0CyZqaYAFFPTkPXZ-SzF-0DR9YAJGXuSzzQrzBj4waM8GbL-XqXPevE3KhLKGyIZE8QJ3Zt2sNhgxfGIm1fiOKaJ1l1ZNpPDJOWXC_Hw-Yt7uXzvMH-PaS0NTPdwdTlp1tDhxx0ykJ5M9xuizMe2H2CYvmQfauwSlU"/>
+<div>
+<p class="font-bold text-slate-800 dark:text-white">Janice Smith, psicologa infantil</p>
+<p class="text-sm text-slate-500 dark:text-slate-400">Cliente</p>
+</div>
+</div>
+</div>
+</div>
+</div>
+</section>
+<section class="py-20 md:py-32 bg-background-light dark:bg-background-dark">
+<div class="container mx-auto px-6">
+<div class="text-center mb-16">
+<p class="text-sm font-bold tracking-widest text-primary dark:text-blue-300 uppercase mb-2">NEWS FEED</p>
+<h2 class="text-4xl md:text-5xl font-display font-bold text-slate-900 dark:text-white">Recursos para tu día a día</h2>
+<p class="max-w-2xl mx-auto text-slate-600 dark:text-slate-400 mt-4">
+          Artículos breves, descargables y ejemplos de rutinas creados junto a nuestra comunidad.
+</div>
+<div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+<div class="bg-white dark:bg-slate-800 rounded-lg shadow-md overflow-hidden group">
+<img alt="Woman in a yoga pose by a window" class="w-full h-56 object-cover" src="/images/feed1.png"/>
+<div class="p-6">
+<p class="text-xs font-bold text-primary dark:text-blue-300 uppercase mb-2">Bienestar</p>
+<h3 class="font-display text-xl font-bold text-slate-900 dark:text-white mb-3">Plantilla de rutina de mañana para niños con TEA/TDAH</h3>
+<p class="text-slate-600 dark:text-slate-400 text-sm mb-4">Una propuesta visual paso a paso para levantarse, vestirse, desayunar y salir de casa con menos estrés.</p>
+<a class="inline-flex items-center text-primary dark:text-blue-300 font-bold" href="#">
+<span>Leer más</span>
+<span class="material-icons text-base ml-1">arrow_forward</span>
+</a>
+</div>
+</div>
+<div class="bg-white dark:bg-slate-800 rounded-lg shadow-md overflow-hidden group">
+<img alt="Woman stretching on a yoga mat" class="w-full h-56 object-cover" src="/images/feed2.png"/>
+<div class="p-6">
+<p class="text-xs font-bold text-primary dark:text-blue-300 uppercase mb-2">Bienestar</p>
+<h3 class="font-display text-xl font-bold text-slate-900 dark:text-white mb-3">Pausas sensoriales de 3 minutos para momentos de crisis</h3>
+<p class="text-slate-600 dark:text-slate-400 text-sm mb-4">Ideas sencillas que puedes añadir directamente a Loopi como actividades de calma.</p>
+<a class="inline-flex items-center text-primary dark:text-blue-300 font-bold" href="#">
+<span>Leer más</span>
+<span class="material-icons text-base ml-1">arrow_forward</span>
+</a>
+</div>
+</div>
+<div class="bg-white dark:bg-slate-800 rounded-lg shadow-md overflow-hidden group">
+<img alt="A healthy bowl of food" class="w-full h-56 object-cover" src="/images/feed3.png"/>
+<div class="p-6">
+<p class="text-xs font-bold text-primary dark:text-blue-300 uppercase mb-2">Bienestar</p>
+<h3 class="font-display text-xl font-bold text-slate-900 dark:text-white mb-3">Cómo alinear expectativas entre familia, colegio y terapia</h3>
+<p class="text-slate-600 dark:text-slate-400 text-sm mb-4">Guía práctica para que todos trabajen con los mismos objetivos y la misma información.</p>
+<a class="inline-flex items-center text-primary dark:text-blue-300 font-bold" href="#">
+<span>Leer más</span>
+<span class="material-icons text-base ml-1">arrow_forward</span>
+</a>
+</div>
+</div>
+</div>
+<div class="text-center mt-12">
+<a class="inline-block bg-primary text-white font-bold py-3 px-8 rounded-lg shadow-lg hover:bg-primary/90 transition-colors" href="#">
+          View All Posts
+        </a>
+</div>
+</div>
+</section>
+<section class="py-20 md:py-32 bg-primary/10 dark:bg-background-dark/50">
+<div class="container mx-auto px-6">
+<div class="text-center">
+<p class="text-sm font-bold tracking-widest text-primary dark:text-blue-300 uppercase mb-2">SUSCRIBETE AHORA</p>
+<h2 class="text-4xl md:text-5xl font-display font-bold text-slate-900 dark:text-white">Recibe novedades y recursos de Loopi</h2>
+<p class="max-w-xl mx-auto text-slate-600 dark:text-slate-400 mt-4 mb-8">
+          Te enviamos ideas prácticas, plantillas y noticias sobre la app. Sin spam, solo contenido que puedas aplicar esta semana con tu hijo, estudiante o paciente.
+        </p>
+<form class="max-w-md mx-auto flex items-center">
+<input class="w-full bg-white dark:bg-slate-700 border-slate-300 dark:border-slate-600 rounded-l-md py-3 px-4 focus:ring-primary focus:border-primary" placeholder="Ingresa tu correo electrónico" type="email"/>
+<button class="bg-primary text-white font-bold py-3 px-6 rounded-r-lg shadow-md hover:bg-primary/90 transition-colors" type="submit">
+            Suscribirme
+          </button>
+</form>
+</div>
+</div>
+</section>
+</main>
+<footer class="bg-background-dark dark:bg-slate-900 text-slate-300">
+<div class="container mx-auto px-6 pt-16 pb-8">
+<div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-12 mb-12">
+<div class="lg:col-span-1">
+<a class="flex items-center space-x-3 text-white" href="#">
+  <img
+    src="/images/v73_30.png"
+    alt="Logo de Loopi"
+    class="h-8 w-8 rounded-full object-cover"
+  />
+  <span class="text-2xl font-display font-bold">Loopi</span>
+</a>
+<p class="text-slate-400 text-sm">Un espacio dedicado a que las personas neurodivergentes encuentren calma, apoyo y recursos de bienestar.</p>
+</div>
+<div>
+<h4 class="font-bold text-lg text-white mb-4 tracking-wide">Enlaces rápidos</h4>
+<nav class="flex flex-col space-y-2 text-sm text-slate-400">
+<a class="hover:text-primary transition-colors" href="#">Inicio</a>
+<a class="hover:text-primary transition-colors" href="#">Nosotros</a>
+<a class="hover:text-primary transition-colors" href="#">Servicios</a>
+<a class="hover:text-primary transition-colors" href="#">Contáctanos</a>
+</nav>
+</div>
+<div>
+<h4 class="font-bold text-lg text-white mb-4 tracking-wide">Recursos</h4>
+<nav class="flex flex-col space-y-2 text-sm text-slate-400">
+<a class="hover:text-primary transition-colors" href="#">Blog</a>
+<a class="hover:text-primary transition-colors" href="#">FAQ</a>
+<a class="hover:text-primary transition-colors" href="#">Soporte</a>
+<a class="hover:text-primary transition-colors" href="#">Politicas de Privacidad</a>
+</nav>
+</div>
+<div>
+<h4 class="font-bold text-lg text-white mb-4 tracking-wide">Síguenos</h4>
+<div class="flex space-x-4">
+<a aria-label="Facebook" class="bg-slate-700/50 p-2 rounded-full text-slate-300 hover:bg-primary hover:text-white transition-colors" href="#">
+<svg class="w-5 h-5" fill="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+<path d="M22.675 0h-21.35c-.732 0-1.325.593-1.325 1.325v21.351c0 .731.593 1.324 1.325 1.324h11.494v-9.294h-3.128v-3.622h3.128v-2.671c0-3.1 1.893-4.788 4.659-4.788 1.325 0 2.463.099 2.795.143v3.24l-1.918.001c-1.504 0-1.795.715-1.795 1.763v2.313h3.587l-.467 3.622h-3.12v9.293h6.116c.73 0 1.323-.593 1.323-1.325v-21.35c0-.732-.593-1.325-1.323-1.325z"></path>
+</svg>
+</a>
+<a aria-label="Instagram" class="bg-slate-700/50 p-2 rounded-full text-slate-300 hover:bg-primary hover:text-white transition-colors" href="#">
+<svg class="w-5 h-5" fill="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+<path d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.85s-.011 3.584-.069 4.85c-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07s-3.584-.012-4.85-.07c-3.252-.148-4.771-1.691-4.919-4.919-.058-1.265-.069-1.645-.069-4.85s.011-3.584.069-4.85c.149-3.225 1.664-4.771 4.919-4.919 1.266-.057 1.644-.069 4.85-.069zm0-2.163c-3.259 0-3.667.014-4.947.072-4.358.2-6.78 2.618-6.98 6.98-.059 1.281-.073 1.689-.073 4.948s.014 3.667.072 4.947c.2 4.358 2.618 6.78 6.98 6.98 1.281.058 1.689.072 4.948.072s3.667-.014 4.947-.072c4.358-.2 6.78-2.618 6.98-6.98.059-1.281.073-1.689.073-4.948s-.014-3.667-.072-4.947c-.2-4.358-2.618-6.78-6.98-6.98-1.281-.059-1.689-.073-4.948-.073zm0 5.838c-3.403 0-6.162 2.759-6.162 6.162s2.759 6.162 6.162 6.162 6.162-2.759 6.162-6.162-2.759-6.162-6.162-6.162zm0 10.162c-2.209 0-4-1.79-4-4s1.791-4 4-4 4 1.79 4 4-1.791 4-4 4zm6.406-11.845c-.796 0-1.441.645-1.441 1.44s.645 1.441 1.441 1.441 1.441-.645 1.441-1.441-.645-1.44-1.441-1.44z"></path>
+</svg>
+</a>
+<a aria-label="Twitter" class="bg-slate-700/50 p-2 rounded-full text-slate-300 hover:bg-primary hover:text-white transition-colors" href="#">
+<svg class="w-5 h-5" fill="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+<path d="M24 4.557c-.883.392-1.832.656-2.828.775 1.017-.609 1.798-1.574 2.165-2.724-.951.564-2.005.974-3.127 1.195-.897-.957-2.178-1.555-3.594-1.555-3.179 0-5.515 2.966-4.797 6.045-4.091-.205-7.719-2.165-10.148-5.144-1.29 2.213-.669 5.108 1.523 6.574-.806-.026-1.566-.247-2.229-.616v.064c0 2.299 1.634 4.22 3.804 4.661-.621.169-1.282.205-1.96.075.594 1.884 2.322 3.256 4.364 3.294-1.737 1.359-3.922 2.169-6.29 2.169-.407 0-.809-.023-1.207-.07-2.247 1.446-4.927 2.299-7.736 2.299 9.282 0 14.364-7.697 14.364-14.364 0-.218-.005-.436-.014-.652.984-.71 1.836-1.595 2.515-2.603z"></path>
+</svg>
+</a>
+</div>
+</div>
+</div>
+<div class="border-t border-slate-800/50 pt-8 mt-8 flex flex-col sm:flex-row justify-between items-center text-center sm:text-left">
+<p class="text-sm text-slate-400 mb-4 sm:mb-0">© 2025 Loopi. Todos los derechos reservados.</p>
+<div class="flex space-x-4 text-sm text-slate-400">
+<a class="hover:text-primary" href="#">Políticas de Privacidad</a>
+<a class="hover:text-primary" href="#">Términos de Servicio</a>
+</div>
+</div>
+</div>
+</footer>
+</div>
+</body></html>
